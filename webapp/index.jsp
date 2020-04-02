@@ -1,83 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Colorlib Templates">
-    <meta name="author" content="Colorlib">
-    <meta name="keywords" content="Colorlib Templates">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
 
-    <!-- Title Page-->
-    <title>Au Register Forms by Colorlib</title>
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
-    <!-- Icons font CSS-->
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <!-- Font special for pages-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
-    <!-- Vendor CSS-->
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
-
-    <!-- Main CSS-->
-    <link href="css/main.css" rel="stylesheet" media="all">
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins">
-        <div class="wrapper wrapper--w780">
-            <div class="card card-3">
-                <div class="card-heading"></div>
-                <div class="card-body">
-                    <h2 class="title">Registration Info</h2>
-                    <form method="POST">
-                        <div class="input-group">
-                            <input class="input--style-3" type="text" placeholder="Name" name="name">
-                        </div>
-                        <div class="input-group">
-                            <input class="input--style-3 js-datepicker" type="text" placeholder="Birthdate" name="birthday">
-                            <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
-                        </div>
-                        <div class="input-group">
-                            <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="gender">
-                                    <option disabled="disabled" selected="selected">Gender</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Other</option>
-                                </select>
-                                <div class="select-dropdown"></div>
-                            </div>
-                        </div>
-                        <div class="input-group">
-                            <input class="input--style-3" type="email" placeholder="Email" name="email">
-                        </div>
-                        <div class="input-group">
-                            <input class="input--style-3" type="text" placeholder="Phone" name="phone">
-                        </div>
-                        <div class="p-t-10">
-                            <button class="btn btn--pill btn--green" type="submit">Submit</button>
-                        </div>
-                    </form>
+
+    <div class="main">
+
+        <div class="container">
+            <form method="POST" class="appointment-form" id="appointment-form">
+                <h2>education appointment form</h2>
+                <div class="form-group-1">
+                    <input type="text" name="title" id="title" placeholder="Title" required />
+                    <input type="text" name="name" id="name" placeholder="Your Name" required />
+                    <input type="email" name="email" id="email" placeholder="Email" required />
+                    <input type="number" name="phone_number" id="phone_number" placeholder="Phone number" required />
+                    <div class="select-list">
+                        <select name="course_type" id="course_type">
+                            <option slected value="">Course Type</option>
+                            <option value="society">Society</option>
+                            <option value="language">Language</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
+                <div class="form-group-2">
+                    <h3>How would you like to bo located ?</h3>
+                    <div class="select-list">
+                        <select name="confirm_type" id="confirm_type">
+                            <option seleected value="">By phone</option>
+                            <option value="by_email">By email</option>
+                        </select>
+                    </div>
+                    <div class="select-list">
+                        <select name="hour_appointment" id="hour_appointment">
+                            <option seleected value="">Hours : 8am 10pm</option>
+                            <option value="9h-11h">Hours : 9am 11pm</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                    <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to the  <a href="#" class="term-service">Terms and Conditions</a></label>
+                </div>
+                <div class="form-submit">
+                    <input type="submit" name="submit" id="submit" class="submit" value="Request an appointment" />
+                </div>
+            </form>
         </div>
+
     </div>
 
-    <!-- Jquery JS-->
+    <!-- JS -->
     <script src="vendor/jquery/jquery.min.js"></script>
-    <!-- Vendor JS-->
-    <script src="vendor/select2/select2.min.js"></script>
-    <script src="vendor/datepicker/moment.min.js"></script>
-    <script src="vendor/datepicker/daterangepicker.js"></script>
-
-    <!-- Main JS-->
-    <script src="js/global.js"></script>
-
+    <script src="js/main.js"></script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-
 </html>
-<!-- end document-->
