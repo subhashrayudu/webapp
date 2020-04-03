@@ -1,490 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-     <title>Health - Medical Website Template</title>
-<!--
+    <head>
+        <title>Patsy Doherty - Home</title>
 
-Template 2098 Health
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Boostrap Core CSS-->
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
+        
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Animate CSS -->
+        <link href="css/animate.css" rel="stylesheet">
+        
+        <!-- Google fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Qwigley" />
+        <!-- Font awesome -->
+        <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-http://www.tooplate.com/view/2098-health
+   </head>
+   <body>
+   
+   <!-- Start wrapper -->
+   <div class="wrapper">
+  	  <div class="col-md-12">
+         <!-- Logo -->
+         <div class="brand wow fadeIn" data-wow-delay="0.1s"> Patsy Doherty
+           <div class="title"> - hat designer -  </div>
+         </div>
 
--->
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="">
-     <meta name="keywords" content="">
-     <meta name="author" content="Tooplate">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+         <!-- Navigation -->
+         <nav class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <div class="navbar-brand"><a href="#">Patsy Doherty</a>
+                <div class="title"> - hat designer - </div>
+                </div>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                   <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="index.html">Home1</a>
+                            </li>
+                            <li>
+                                <a href="index-work.html">Home2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                       <a href="about.html">About</a>
+                    </li>
+                    <li>
+                       <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                      <a href="collection.html">Collection</a>
+                    </li>
+                    <li>
+                      <a  href="resume.html">Resume</a>
+                    </li>
+                     <li>
+                      <a href="news.html">News</a>
+                    </li>
+                    <li>
+                      <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /navbar-collapse -->
+         </nav>
+         <!-- End nav -->
 
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/font-awesome.min.css">
-     <link rel="stylesheet" href="css/animate.css">
-     <link rel="stylesheet" href="css/owl.carousel.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/tooplate-style.css">
-
-</head>
-<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
-
-     <!-- PRE LOADER -->
-     <section class="preloader">
-          <div class="spinner">
-
-               <span class="spinner-rotate"></span>
-               
+         <!-- Start main image and the text below -->
+         <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
+              <img src="img/main-banner.jpg" alt="img" class="resp main-image"/>
+                  <h1>Hat design</h1>
+                  <div class="hr"></div>
+                  <h2>The human head is a constantly moving and turning pedestal...with the hat a sculpture.
+                  </h2>
+                  <div class="text-center">
+                     <a href="collection.html" class="home-btn btn">View collection</a>
+                  </div>  
           </div>
-     </section>
+          <!-- End main image and the text below -->
 
-
-     <!-- HEADER -->
-     <header>
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-4 col-sm-5">
-                         <p>Welcome to a Professional Health Care</p>
-                    </div>
-                         
-                    <div class="col-md-8 col-sm-7 text-align-right">
-                         <span class="phone-icon"><i class="fa fa-phone"></i> 010-060-0160</span>
-                         <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 6:00 AM - 10:00 PM (Mon-Fri)</span>
-                         <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="#">info@company.com</a></span>
-                    </div>
-
-               </div>
+          <!-- Start left column -->
+          <div class="box-home col-md-4 col-xs-offset-1">
+               <h3>
+               <span class="text-left">The right hat may also enliven our</span> imagination of the past...an old-fashioned cloche, a picture hat, or a toque trimmed with a pouf of polka-dotted veiling is just enough to make us feel as if we were living in another, romantic age. 
+               <a href="news.html">read more <i class="fa fa-angle-right"></i></a>
+               </h3>
           </div>
-     </header>
-
-
-     <!-- MENU -->
-     <section class="navbar navbar-default navbar-static-top" role="navigation">
-          <div class="container">
-
-               <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                    </button>
-
-                    <!-- lOGO TEXT HERE -->
-                    <a href="index.html" class="navbar-brand"><i class="fa fa-h-square"></i>ealth Center</a>
-               </div>
-
-               <!-- MENU LINKS -->
-               <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#top" class="smoothScroll">Home</a></li>
-                         <li><a href="#about" class="smoothScroll">About Us</a></li>
-                         <li><a href="#team" class="smoothScroll">Doctors</a></li>
-                         <li><a href="#news" class="smoothScroll">News</a></li>
-                         <li><a href="#google-map" class="smoothScroll">Contact</a></li>
-                         <li class="appointment-btn"><a href="#appointment">Make an appointment</a></li>
-                    </ul>
-               </div>
-
+          <!-- End left column -->
+             
+          <!-- Start right image -->
+          <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+             <div class="first">
+             <div class="square wow fadeInDown" data-wow-delay=".5s"></div>
+             </div>
+             <img src="img/photo.jpg" alt="img" class="photo-home"/> 
           </div>
-     </section>
+          <!-- End right image -->
 
-
-     <!-- HOME -->
-     <section id="home" class="slider" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-
-                         <div class="owl-carousel owl-theme">
-                              <div class="item item-first">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Let's make your life happier</h3>
-                                             <h1>Healthy Living</h1>
-                                             <a href="#team" class="section-btn btn btn-default smoothScroll">Meet Our Doctors</a>
-                                        </div>
-                                   </div>
-                              </div>
-
-                              <div class="item item-second">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Aenean luctus lobortis tellus</h3>
-                                             <h1>New Lifestyle</h1>
-                                             <a href="#about" class="section-btn btn btn-default btn-gray smoothScroll">More About Us</a>
-                                        </div>
-                                   </div>
-                              </div>
-
-                              <div class="item item-third">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Pellentesque nec libero nisi</h3>
-                                             <h1>Your Health Benefits</h1>
-                                             <a href="#news" class="section-btn btn btn-default btn-blue smoothScroll">Read Stories</a>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-
-               </div>
+          <!-- Start footer -->
+          <div class="footer col-md-6 col-xs-offset-3">
+             <h5>Copyright 2016
+                 <a href="#"><i class="fa fa-facebook fa-1x icon1"></i></a>
+                 <a href="#"><i class="fa fa-twitter fa-1x icon1"></i></a>
+                 <a href="#"><i class="fa fa-instagram fa-1x icon1"></i></a>
+             </h5>
           </div>
-     </section>
+          <!-- End footer -->
+          
+      </div>
+      <!-- End col-md-12 -->
 
+   </div>
+   <!-- End wrapper -->
 
-     <!-- ABOUT -->
-     <section id="about">
-          <div class="container">
-               <div class="row">
+      
+   <!-- jQuery Version 1.11.0 -->
+   <script src="js/jquery-1.11.0.js"></script>
+   <!-- Boostrap JS -->
+   <script src="js/bootstrap.min.js"></script>
+   <!-- Smooth scroll JS -->
+   <script src="js/smoothscroll.js"></script>
+   
+   <!-- Wow JavaScript -->
+   <script src="js/wow.js"></script>
+    
+   <script>
+   new WOW().init();
+   </script>
 
-                    <div class="col-md-6 col-sm-6">
-                         <div class="about-info">
-                              <h2 class="wow fadeInUp" data-wow-delay="0.6s">Welcome to Your <i class="fa fa-h-square"></i>ealth Center</h2>
-                              <div class="wow fadeInUp" data-wow-delay="0.8s">
-                                   <p>Aenean luctus lobortis tellus, vel ornare enim molestie condimentum. Curabitur lacinia nisi vitae velit volutpat venenatis.</p>
-                                   <p>Sed a dignissim lacus. Quisque fermentum est non orci commodo, a luctus urna mattis. Ut placerat, diam a tempus vehicula.</p>
-                              </div>
-                              <figure class="profile wow fadeInUp" data-wow-delay="1s">
-                                   <img src="images/author-image.jpg" class="img-responsive" alt="">
-                                   <figcaption>
-                                        <h3>Dr. Neil Jackson</h3>
-                                        <p>General Principal</p>
-                                   </figcaption>
-                              </figure>
-                         </div>
-                    </div>
-                    
-               </div>
-          </div>
-     </section>
-
-
-     <!-- TEAM -->
-     <section id="team" data-stellar-background-ratio="1">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-6 col-sm-6">
-                         <div class="about-info">
-                              <h2 class="wow fadeInUp" data-wow-delay="0.1s">Our Doctors</h2>
-                         </div>
-                    </div>
-
-                    <div class="clearfix"></div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
-                              <img src="images/team-image1.jpg" class="img-responsive" alt="">
-
-                                   <div class="team-info">
-                                        <h3>Nate Baston</h3>
-                                        <p>General Principal</p>
-                                        <div class="team-contact-info">
-                                             <p><i class="fa fa-phone"></i> 010-020-0120</p>
-                                             <p><i class="fa fa-envelope-o"></i> <a href="#">general@company.com</a></p>
-                                        </div>
-                                        <ul class="social-icon">
-                                             <li><a href="#" class="fa fa-linkedin-square"></a></li>
-                                             <li><a href="#" class="fa fa-envelope-o"></a></li>
-                                        </ul>
-                                   </div>
-
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
-                              <img src="images/team-image2.jpg" class="img-responsive" alt="">
-
-                                   <div class="team-info">
-                                        <h3>Jason Stewart</h3>
-                                        <p>Pregnancy</p>
-                                        <div class="team-contact-info">
-                                             <p><i class="fa fa-phone"></i> 010-070-0170</p>
-                                             <p><i class="fa fa-envelope-o"></i> <a href="#">pregnancy@company.com</a></p>
-                                        </div>
-                                        <ul class="social-icon">
-                                             <li><a href="#" class="fa fa-facebook-square"></a></li>
-                                             <li><a href="#" class="fa fa-envelope-o"></a></li>
-                                             <li><a href="#" class="fa fa-flickr"></a></li>
-                                        </ul>
-                                   </div>
-
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
-                              <img src="images/team-image3.jpg" class="img-responsive" alt="">
-
-                                   <div class="team-info">
-                                        <h3>Miasha Nakahara</h3>
-                                        <p>Cardiology</p>
-                                        <div class="team-contact-info">
-                                             <p><i class="fa fa-phone"></i> 010-040-0140</p>
-                                             <p><i class="fa fa-envelope-o"></i> <a href="#">cardio@company.com</a></p>
-                                        </div>
-                                        <ul class="social-icon">
-                                             <li><a href="#" class="fa fa-twitter"></a></li>
-                                             <li><a href="#" class="fa fa-envelope-o"></a></li>
-                                        </ul>
-                                   </div>
-
-                         </div>
-                    </div>
-                    
-               </div>
-          </div>
-     </section>
-
-
-     <!-- NEWS -->
-     <section id="news" data-stellar-background-ratio="2.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-12 col-sm-12">
-                         <!-- SECTION TITLE -->
-                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
-                              <h2>Latest News</h2>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <!-- NEWS THUMB -->
-                         <div class="news-thumb wow fadeInUp" data-wow-delay="0.4s">
-                              <a href="news-detail.html">
-                                   <img src="images/news-image1.jpg" class="img-responsive" alt="">
-                              </a>
-                              <div class="news-info">
-                                   <span>March 08, 2018</span>
-                                   <h3><a href="news-detail.html">About Amazing Technology</a></h3>
-                                   <p>Maecenas risus neque, placerat volutpat tempor ut, vehicula et felis.</p>
-                                   <div class="author">
-                                        <img src="images/author-image.jpg" class="img-responsive" alt="">
-                                        <div class="author-info">
-                                             <h5>Jeremie Carlson</h5>
-                                             <p>CEO / Founder</p>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <!-- NEWS THUMB -->
-                         <div class="news-thumb wow fadeInUp" data-wow-delay="0.6s">
-                              <a href="news-detail.html">
-                                   <img src="images/news-image2.jpg" class="img-responsive" alt="">
-                              </a>
-                              <div class="news-info">
-                                   <span>February 20, 2018</span>
-                                   <h3><a href="news-detail.html">Introducing a new healing process</a></h3>
-                                   <p>Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam et est ligula.</p>
-                                   <div class="author">
-                                        <img src="images/author-image.jpg" class="img-responsive" alt="">
-                                        <div class="author-info">
-                                             <h5>Jason Stewart</h5>
-                                             <p>General Director</p>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <!-- NEWS THUMB -->
-                         <div class="news-thumb wow fadeInUp" data-wow-delay="0.8s">
-                              <a href="news-detail.html">
-                                   <img src="images/news-image3.jpg" class="img-responsive" alt="">
-                              </a>
-                              <div class="news-info">
-                                   <span>January 27, 2018</span>
-                                   <h3><a href="news-detail.html">Review Annual Medical Research</a></h3>
-                                   <p>Vivamus non nulla semper diam cursus maximus. Pellentesque dignissim.</p>
-                                   <div class="author">
-                                        <img src="images/author-image.jpg" class="img-responsive" alt="">
-                                        <div class="author-info">
-                                             <h5>Andrio Abero</h5>
-                                             <p>Online Advertising</p>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-               </div>
-          </div>
-     </section>
-
-
-     <!-- MAKE AN APPOINTMENT -->
-     <section id="appointment" data-stellar-background-ratio="3">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-6 col-sm-6">
-                         <img src="images/appointment-image.jpg" class="img-responsive" alt="">
-                    </div>
-
-                    <div class="col-md-6 col-sm-6">
-                         <!-- CONTACT FORM HERE -->
-                         <form id="appointment-form" role="form" method="post" action="#">
-
-                              <!-- SECTION TITLE -->
-                              <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
-                                   <h2>Make an appointment</h2>
-                              </div>
-
-                              <div class="wow fadeInUp" data-wow-delay="0.8s">
-                                   <div class="col-md-6 col-sm-6">
-                                        <label for="name">Name</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
-                                   </div>
-
-                                   <div class="col-md-6 col-sm-6">
-                                        <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
-                                   </div>
-
-                                   <div class="col-md-6 col-sm-6">
-                                        <label for="date">Select Date</label>
-                                        <input type="date" name="date" value="" class="form-control">
-                                   </div>
-
-                                   <div class="col-md-6 col-sm-6">
-                                        <label for="select">Select Department</label>
-                                        <select class="form-control">
-                                             <option>General Health</option>
-                                             <option>Cardiology</option>
-                                             <option>Dental</option>
-                                             <option>Medical Research</option>
-                                        </select>
-                                   </div>
-
-                                   <div class="col-md-12 col-sm-12">
-                                        <label for="telephone">Phone Number</label>
-                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
-                                        <label for="Message">Additional Message</label>
-                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
-                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Submit Button</button>
-                                   </div>
-                              </div>
-                        </form>
-                    </div>
-
-               </div>
-          </div>
-     </section>
-
-
-     <!-- GOOGLE MAP -->
-     <section id="google-map">
-     <!-- How to change your own map point
-            1. Go to Google Maps
-            2. Click on your location point
-            3. Click "Share" and choose "Embed map" tab
-            4. Copy only URL and paste it within the src="" field below
-	-->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-     </section>           
-
-
-     <!-- FOOTER -->
-     <footer data-stellar-background-ratio="5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-4 col-sm-4">
-                         <div class="footer-thumb"> 
-                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contact Info</h4>
-                              <p>Fusce at libero iaculis, venenatis augue quis, pharetra lorem. Curabitur ut dolor eu elit consequat ultricies.</p>
-
-                              <div class="contact-info">
-                                   <p><i class="fa fa-phone"></i> 010-070-0170</p>
-                                   <p><i class="fa fa-envelope-o"></i> <a href="#">info@company.com</a></p>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4"> 
-                         <div class="footer-thumb"> 
-                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Latest News</h4>
-                              <div class="latest-stories">
-                                   <div class="stories-image">
-                                        <a href="#"><img src="images/news-image.jpg" class="img-responsive" alt=""></a>
-                                   </div>
-                                   <div class="stories-info">
-                                        <a href="#"><h5>Amazing Technology</h5></a>
-                                        <span>March 08, 2018</span>
-                                   </div>
-                              </div>
-
-                              <div class="latest-stories">
-                                   <div class="stories-image">
-                                        <a href="#"><img src="images/news-image.jpg" class="img-responsive" alt=""></a>
-                                   </div>
-                                   <div class="stories-info">
-                                        <a href="#"><h5>New Healing Process</h5></a>
-                                        <span>February 20, 2018</span>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-4"> 
-                         <div class="footer-thumb">
-                              <div class="opening-hours">
-                                   <h4 class="wow fadeInUp" data-wow-delay="0.4s">Opening Hours</h4>
-                                   <p>Monday - Friday <span>06:00 AM - 10:00 PM</span></p>
-                                   <p>Saturday <span>09:00 AM - 08:00 PM</span></p>
-                                   <p>Sunday <span>Closed</span></p>
-                              </div> 
-
-                              <ul class="social-icon">
-                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                                   <li><a href="#" class="fa fa-twitter"></a></li>
-                                   <li><a href="#" class="fa fa-instagram"></a></li>
-                              </ul>
-                         </div>
-                    </div>
-
-                    <div class="col-md-12 col-sm-12 border-top">
-                         <div class="col-md-4 col-sm-6">
-                              <div class="copyright-text"> 
-                                   <p>Copyright &copy; 2018 Your Company 
-                                   
-                                   | Design: Tooplate</p>
-                              </div>
-                         </div>
-                         <div class="col-md-6 col-sm-6">
-                              <div class="footer-link"> 
-                                   <a href="#">Laboratory Tests</a>
-                                   <a href="#">Departments</a>
-                                   <a href="#">Insurance Policy</a>
-                                   <a href="#">Careers</a>
-                              </div>
-                         </div>
-                         <div class="col-md-2 col-sm-2 text-align-center">
-                              <div class="angle-up-btn"> 
-                                  <a href="#top" class="smoothScroll wow fadeInUp" data-wow-delay="1.2s"><i class="fa fa-angle-up"></i></a>
-                              </div>
-                         </div>   
-                    </div>
-                    
-               </div>
-          </div>
-     </footer>
-
-     <!-- SCRIPTS -->
-     <script src="js/jquery.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/jquery.sticky.js"></script>
-     <script src="js/jquery.stellar.min.js"></script>
-     <script src="js/wow.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/custom.js"></script>
 
 </body>
 </html>
