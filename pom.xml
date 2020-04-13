@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.efsavage</groupId>
 	<artifactId>hyd</artifactId>
-	<version>1</version>
+	<version>1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Web Application</name>
 	<description>Java Webapp</description>
@@ -47,8 +47,8 @@
 	<distributionManagement>
 		<repository>
 			<id>deployment</id>
-			<name>build releases</name>
-			<url>http://35.193.123.86:8081/repository/kig-app/</url>
+			<name>releases</name>
+			<url>http://35.224.239.124:8081/repository/maven-snapshots/</url>
 		</repository>
 	</distributionManagement>
 </project>
