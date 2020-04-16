@@ -48,7 +48,7 @@
 		<repository>
 			<id>deployment</id>
 			<name>releases</name>
-			<url>http://34.68.174.194:8081/repository/artifact/</url>
+			<url>http://35.194.63.88:8081/repository/artifact/</url>
 		</repository>
 	</distributionManagement>
 </project>
