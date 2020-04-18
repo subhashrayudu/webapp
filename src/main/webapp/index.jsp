@@ -30,7 +30,7 @@
    <div class="wrapper">
   	  <div class="col-md-12">
          <!-- Logo -->
-         <div class="brand wow fadeIn" data-wow-delay="0.1s"> North Alley India
+         <div class="brand wow fadeIn" data-wow-delay="0.1s"> Patsy Doherty
            <div class="title"> - hat designer -  </div>
          </div>
 
@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <div class="navbar-brand"><a href="#">Patsy Doherty</a>
+                <div class="navbar-brand"><a href="#">North Alley India</a>
                 <div class="title"> - hat designer - </div>
                 </div>
             </div>
