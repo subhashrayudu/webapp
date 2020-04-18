@@ -30,7 +30,7 @@
    <div class="wrapper">
   	  <div class="col-md-12">
          <!-- Logo -->
-         <div class="brand wow fadeIn" data-wow-delay="0.1s"> Patsy Doherty
+         <div class="brand wow fadeIn" data-wow-delay="0.1s"> North Alley India
            <div class="title"> - hat designer -  </div>
          </div>
 
